@@ -69,4 +69,19 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
     text-align: center;
+    margin: 40px;
+}
+.btn{
+    padding: 10px 40px ;
+    background-color: transparent;
+    border: 1px solid white;
+    color: aliceblue;
+    outline: none;
+    transition: 0.6s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 0 0 wheat,0 0 10px wheat,0 0 15px wheat;
 }
