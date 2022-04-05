@@ -85,3 +85,133 @@
     color: black;
     box-shadow: 0 0 wheat,0 0 10px wheat,0 0 15px wheat;
 }
+/* about  */
+#about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+    box-sizing: border-box;
+    
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+/* portfolio */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0,0, 0.9);
+    color: aliceblue;
+    padding: 20px;
+    align-items: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery img{
+    width: 350px;
+    height: 240px;
+    padding: 5px;
+}
+/* services */
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;
+     justify-content: space-around;
+     flex-direction: wrap;
+     box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin:10px;
+    align-items:center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top,rgb(255,45,45)50%,white 50%);
+    background-size: 100% 200%;
+    transition:  all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: aliceblue;
+    border: none;
+   
+    box-shadow: 0 0 20px rgb(255,45,45);
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+/* contact */
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+   
+    background-color: rgba(0, 0,0, 0.9);
+    color: aliceblue;
+    padding: 20px;
+
+
+}
+.form{
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+align-items: center;
+margin: 20px 0px;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+#Send{
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+#Send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px wheat;
+}

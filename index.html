@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="table.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">About Me </a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Contact Me</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">About Me </a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
     <section id="home">
@@ -24,7 +27,80 @@
         </div>
     </section>
     <section id="about">
-        
+        <h1 class="heading">About me</h1>
+        <div id="pic">
+
+            <img src="img.jpg" alt="">
+            <div id="intro">
+                <h2>MOHIMA</h2>
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex nobis, dolores sequi, repellendus sed
+                    assumenda tenetur, reprehenderit dicta consequuntur odit quibusdam qui recusandae? Aliquam qui
+                    cumque placeat minus voluptatem perspiciatis nemo deleniti esse illum necessitatibus et voluptas
+                    omnis quis libero, id voluptate neque saepe atque sequi vel voluptates illo delectus ipsum quasi. Ea
+                    iure sed quidem corrupti quos. Ipsam tempore illum possimus ratione quisquam exercitationem
+                    aspernatur suscipit ut atque cum quis debitis, ea odio deserunt assumenda harum delectus et sapiente
+                    iste ipsa voluptate optio voluptatem in. Tempore sed provident cumque ab atque aspernatur odit
+                    ratione quod adipisci eum saepe laudantium, iure cum similique, mollitia eos facilis dolore. Quidem
+                    omnis repudiandae earum culpa natus, ipsum harum dignissimos minus consequatur fugiat, quos animi
+                    laudantium nostrum reiciendis dicta voluptates nobis asperiores? Dolor consequuntur maiores porro
+                    laboriosam necessitatibus ipsam excepturi amet! Facilis, nostrum praesentium. Voluptatibus sequi
+                    natus explicabo laboriosam impedit facere, quisquam sint exercitationem illum eius quasi! Totam,
+                    necessitatibus odit quidem quis voluptatem unde mollitia. Quasi possimus at officiis perspiciatis
+                    obcaecati aperiam voluptates, eaque alias dicta eos necessitatibus asperiores aspernatur praesentium
+                    corporis ducimus odio provident reprehenderit voluptatibus cum vel molestias recusandae qui. Quis,
+                    impedit. A corrupti optio culpa porro facilis dignissimos sequi odit dicta?</P>
+            </div>
+        </div>
     </section>
+    <section id="portfolio">
+        <h1 class="heading">Portfolio</h1>
+        <div class="gallery">
+            <img src="demo-pic/1.PNG" alt="">
+            <img src="demo-pic/2.PNG" alt="">
+            <img src="demo-pic/3.PNG" alt="">
+            <img src="demo-pic/4.PNG" alt="">
+            <img src="demo-pic/5.PNG" alt="">
+            <img src="demo-pic/6.PNG" alt="">
+            <img src="demo-pic/6.PNG" alt="">
+            <img src="demo-pic/6.PNG" alt="">
+        </div>
+    </section>
+    <section id="services">
+        <h1 class="heading">Services</h1>
+        <div class="row">
+            <div class="box">
+                <img src="demo-pic/1.PNG" alt="">
+                <h1 class="heading">Website Designe</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt optio ut distinctio expedita quidem
+                    velit porro quae aspernatur saepe rerum, voluptatem aut. Dolores praesentium tenetur, laborum
+                    nesciunt quisquam expedita accusamus.</p>
+            </div>
+            <div class="box">
+                <img src="demo-pic/1.PNG" alt="">
+                <h1 class="heading">Ux/UI <br> Design</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt optio ut distinctio expedita quidem
+                    velit porro quae aspernatur saepe rerum, voluptatem aut. Dolores praesentium tenetur, laborum
+                    nesciunt quisquam expedita accusamus.</p>
+            </div>
+            <div class="box">
+                <img src="demo-pic/1.PNG" alt="">
+                <h1 class="heading">Machin learning</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt optio ut distinctio expedita quidem
+                    velit porro quae aspernatur saepe rerum, voluptatem aut. Dolores praesentium tenetur, laborum
+                    nesciunt quisquam expedita accusamus.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="heading">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="email" name="email" class="input" placeholder="Enter your email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Your massage "></textarea>
+            <input type="submit" value="Send" id="Send">
+        </form>
+    </section>
+
 </body>
+
 </html>
